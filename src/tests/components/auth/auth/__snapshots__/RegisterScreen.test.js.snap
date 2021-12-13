@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <RegisterScreen /> debe de mostrrse correctamente  1`] = `
+<div
+  className="auth_main"
+>
+  <div
+    className="auth_box-container"
+  >
+    <div
+      className="animate__animated animate__fadeIn animate__faster"
+    >
+      <h3
+        className="auth_title"
+      >
+        Register
+      </h3>
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="aut_input"
+          name="email"
+          onChange={[Function]}
+          placeholder="Email"
+          type="text"
+          value="chris9813@gmail.com"
+        />
+        <input
+          autoComplete="off"
+          className="aut_input"
+          name="name"
+          onChange={[Function]}
+          placeholder="Name"
+          type="text"
+          value="Chris"
+        />
+        <input
+          className="aut_input"
+          name="password"
+          onChange={[Function]}
+          placeholder="password"
+          type="password"
+          value="123456"
+        />
+        <input
+          className="aut_input"
+          name="password2"
+          onChange={[Function]}
+          placeholder="password2"
+          type="password"
+          value="123456"
+        />
+        <button
+          className="btn btn-primary btn-block"
+          onClick={[Function]}
+          type="submit"
+        >
+          Register
+        </button>
+        <a
+          className="link"
+          href="/auth/login"
+          onClick={[Function]}
+        >
+          Already register
+        </a>
+      </form>
+    </div>
+  </div>
+</div>
+`;
